@@ -1,17 +1,26 @@
 {
   "title": {
-    "text": "{OughtGather</br>{time}}",
+    "text": "The Daily News",
     "img": ""
   },
   "limit": 15,
+  "load_images": "Y",
   "body": [
     {
       "type": "rss",
-      "src": "https://hnrss.org/frontpage",
-      "title": "Hacker News 热门",
-      "priority": 15,
-      "keep_link": "Y",
-      "metadata": { "full_text": "N" }
+      "src": "https://retrohandhelds.gg/feed/",
+      "title": "Retro Handhelds",
+      "priority": "",
+      "load_images": "Y",
+      "keep_link": ""
+    },
+    {
+      "type": "",
+      "src": "",
+      "title": "",
+      "priority": "",
+      "load_images": "Y",
+      "keep_link": ""
     }
   ]
 }
